@@ -33,6 +33,13 @@ h1 {
     color: #fff;
     font-size: 70px;
     line-height: 70px;
+    transition-timing-function: ease-in-out;
+    transition: transform 5s;
+}
+
+.header-info h1:hover {
+    transform: rotate(180deg);
+    color: yellow;
 }
 
 .header-info p {
@@ -223,6 +230,11 @@ hr {
 .footer-item a {
     text-decoration: none;
     color: #fff;
+}
+
+.footer-item a:hover {
+    color: red;
+    ;
 }
 
 .social {
